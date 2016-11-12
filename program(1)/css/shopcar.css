@@ -1,0 +1,156 @@
+*{
+	margin:0;
+	padding:0;
+}
+body,html{
+	width:100%;
+	height:100%;
+	font-size:62.5%;
+	font-family: "微软雅黑";
+}
+ul,li{
+		list-style: none;
+}
+
+body{
+		display: -webkit-box;
+		overflow: hidden;
+		-webkit-box-orient: vertical;
+	}
+header{
+		width:100%;
+		height:48px;
+		text-align:center;
+		line-height:48px;
+		background:#ab1b1a;
+		color:#fff;
+		font-size:2.8rem;
+		position:relative;
+		
+	}
+	header span{
+		position:absolute;
+		display:inline-block;
+		width:50px;
+		height:30px;
+		background:#be0c0a;
+		right:20px;
+		bottom:10px;
+		border-radius: 8px;
+		text-align: center;
+		line-height:30px;
+		font-size:2.0rem;
+		
+	}
+	.middle{
+		width:100%;
+		height:48px;
+		line-height:48px;
+		background:#484850;
+		font-size:2.0rem;
+	}
+	.middle p{
+		display:inline-block;
+		color:#fff;
+	}
+	.middle .p1{
+		width:40%;
+		height:48px;
+		display:inline-block;
+		float:left;
+		margin-left:20px;
+		box-sizing: border-box;
+		
+	}
+	.middle .p2{
+		width:54%;
+		height:48px;
+		display:inline-block;
+		float:left;
+		box-sizing: border-box;
+	}
+	.middle .p2 span{
+		color:#BE0C0A;
+	}
+	.middle .p2 i{
+		color:#BE0C0A;
+	}
+	.content{
+		-webkit-box-flex: 1;
+		overflow-y:auto;
+		position:relative;
+		overflow-x:hidden;
+	}
+	.content .show{
+		width:100%;
+		height:160px;
+		box-sizing: border-box;
+		border-bottom:solid 1px #484850;
+		padding:20px;
+	}	
+	.content .photo{
+		width:40%;
+		height:100%;
+		float:left;
+	}
+	.content .photo img{
+		width:100px;
+		height:125px;
+		border:solid 1px #AB1B1A;
+	}
+	.content ul{
+		float:left;
+		width:60%;
+		height:100%;
+	}
+	.content ul li:nth-child(1){
+		height:50px;
+	}
+	.content ul li{
+		height:30px;
+		width:100%;
+		font-size:1.8rem;
+	}
+	.content ul li input{
+		width:30px;
+		height:24px;
+		text-align:center;
+		border:0;
+		
+	}
+	.content .number{
+		border:solid 1px #EEEEEE;
+		margin:5px;
+	}
+	.content ul li:nth-child(2) span{
+		color:#AB1B1A;
+	}
+	.content ul li:nth-child(2) i{
+		color:#AB1B1A;
+	}	
+	.content ul li:nth-child(4){
+		margin-left:170px;
+	}
+	
+	footer{
+		width:100%;
+		height:48px;
+		background:#484850;
+	}
+	footer ul{
+				display: -webkit-box;
+			}
+	footer ul li{
+				-webkit-box-flex: 1;
+				color: #FFFFFF;
+				
+				text-align: center;
+			}
+	footer ul li .fa{
+				display: block;
+				font-size: 2.8rem;
+				line-height: 28px;
+			}
+	footer ul li span{
+				display: block;
+			}

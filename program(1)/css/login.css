@@ -1,0 +1,110 @@
+		*{
+				margin:0;
+				padding:0;
+			}
+			body,html{
+				width:100%;
+				height:100%;
+				overflow:hidden;
+			}
+			body{
+				font-size:62.5%;
+			}
+			input{
+				background:none;
+				border:none;
+				outline:none;
+			}
+			header{
+				width:100%;
+				height:48px;
+				font-size:2.6em;
+				line-height:48px;
+				text-align: center;
+				background:dodgerblue;
+				color:#fff;
+				overflow:hidden;
+			}
+			.connect{
+				width:100%;
+				height:100%;
+				background:#f3eff0;
+				overflow:hidden;
+				text-align:center;
+				padding:4% 4% 0;
+				box-sizing:border-box;
+				
+			}
+			.connect .input1,.input2{
+				background:#fff;
+				border-radius: 5px;
+				padding-left:4%;
+				width:100%;
+				height:10.3%;
+				box-sizing:border-box;
+				font-size:2.0em;
+			}
+			.connect .input2{
+				margin-top:1%;
+			}
+			.connect .connect-1,.connect-2{
+				width:100%;
+				height:5%;
+				margin-top:6.1%;
+			}
+			.connect .connect-1 input,.connect-2 input{
+				float:left;
+				width:7.2%;
+				height:100%;
+				margin-left:3.4%;
+				box-sizing: border-box;
+				
+			}
+			.connect .connect-1 .span1{
+				float: left;
+				width:25%;
+				display: inline-block;
+			
+				box-sizing: border-box;
+				font-size:1.8em;
+				line-height:200%;
+			}
+			.connect .connect-1 .span2{
+				float: left;
+				width:25%;
+				display: inline-block;
+				margin-left:1.5%;
+				box-sizing: border-box;
+				font-size:1.8em;
+				line-height:200%;
+				color:orangered;
+			}
+			.connect .connect-2 span{
+				display: inline-block;
+				margin-left:1.5%;
+				box-sizing: border-box;
+				font-size:1.8em;
+				line-height:200%;
+				float:left;
+				
+			}
+			.connect .input3{
+				width:100%;
+				height:10.3%;
+				border-radius: 5px;
+				background:#1E90FF;
+				margin-top:6.1%;
+				text-align: center;
+				color:#fff;
+				font-size:2.6em;
+			}
+			.connect .input4{
+				width:100%;
+				height:10.3%;
+				border-radius: 5px;
+				background:darksalmon;
+				margin-top:2%;
+				text-align: center;
+				color:#fff;
+				font-size:2.6em;
+			}			

@@ -1,0 +1,143 @@
+*{
+	margin:0;
+	padding:0;
+}
+body,html{
+	width:100%;
+	height:100%;
+	font-size:62.5%;
+	font-family: "微软雅黑";
+}
+ul,li{
+		list-style: none;
+}
+body{
+		display: -webkit-box;
+		overflow: hidden;
+		-webkit-box-orient: vertical;
+	}
+header{
+		width:100%;
+		height:48px;
+		text-align:center;
+		line-height:48px;
+		background:#ab1b1a;
+		color:#fff;
+		font-size:3.2em;
+		position:relative;
+		
+	}
+	header span{
+		position:absolute;
+		display:inline-block;
+		width:50px;
+		height:30px;
+		background:#be0c0a;
+		right:20px;
+		bottom:10px;
+		border-radius: 8px;
+		
+	}
+	header span .fa{
+				display: block;
+				font-size: 20px;
+				padding-top:5px;
+	}
+	#content{
+		overflow:hidden;
+		-webkit-box-flex: 1;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;		
+	}
+	#content #typelist{
+		width:100%;
+		height:48px;
+		background:#eee;
+		box-sizing: border-box;
+		position:relative;
+	}
+	#content #typelist ul{
+		height:48px;
+		
+	}
+	#content #typelist ul li{
+		position:relative;
+	}
+	#content #typelist .three{
+		height:0px;
+		width:0;		
+		border-left:5px solid transparent;
+		border-right:5px solid transparent;
+		border-bottom: 10px solid #fff;
+		position:absolute;
+		bottom:0;
+		left:19px;
+		display:none;
+		
+	}
+	#content #typelist ul li{
+		display: inline-block;
+		width:48px;
+		height:48px;
+		text-align: center;
+		line-height: 48px;
+		box-sizing: border-box;
+	}
+	#content #prolist{
+		-webkit-box-flex: 1;
+		overflow: hidden;
+		position: relative;
+	}
+	#content #prolist ul{
+		display: block;
+		width:100%;
+	}
+	#content #prolist ul li{
+		width:50%;
+		box-sizing: border-box;
+		padding:30px 10px 0;
+		display: inline-block;
+		text-align:center;
+		font-size:1.4em;
+		height:250px;
+		
+	}
+	#content #prolist ul li img{
+		width:90%;
+		height:180px;
+		
+	}
+	#content #prolist ul li .p1{
+		height:30px;
+		font-size:1.2em;
+		color:#000000;
+	}
+	#content #prolist ul li .p2{
+		height:20px;
+		font-size:1.4em;
+		color:#AB1B1A;
+		margin-top:10px;
+		
+	}	
+
+	footer{
+		width:100%;
+		height:48px;
+		background:#484850;
+	}
+	footer ul{
+				display: -webkit-box;
+			}
+	footer ul li{
+				-webkit-box-flex: 1;
+				color: #FFFFFF;
+				text-align: center;
+			}
+	footer ul li .fa{
+				display: block;
+				font-size: 3.2em;
+				line-height: 28px;
+			}
+	footer ul li span{
+				display: block;
+			}
